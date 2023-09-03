@@ -225,8 +225,8 @@ new_git_repository(
     name = "pybind11_protobuf",
     #build_file = "@pybind11_bazel//:pybind11.BUILD",
     #tag = "v2.10.3",
-    commit = "5baa2dc9d93e3b608cde86dfa4b8c63aeab4ac78",
-    remote = "https://github.com/pybind/pybind11_protobuf.git",
+    commit = "dc76b302909bf385b57ab25a2fc62c188c7789e0",
+    remote = "https://github.com/lopsided98/pybind11_protobuf.git",
 )
 
 load("@pybind11_bazel//:python_configure.bzl", "python_configure")

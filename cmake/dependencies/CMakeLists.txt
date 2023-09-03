@@ -176,8 +176,8 @@ if(BUILD_PYTHON AND BUILD_pybind11_protobuf)
   list(APPEND CMAKE_MESSAGE_INDENT "  ")
   FetchContent_Declare(
     pybind11_protobuf
-    GIT_REPOSITORY "https://github.com/pybind/pybind11_protobuf.git"
-    GIT_TAG "main"
+    GIT_REPOSITORY "https://github.com/lopsided98/pybind11_protobuf.git"
+    GIT_TAG "cmake-install"
     PATCH_COMMAND git apply --ignore-whitespace "${CMAKE_CURRENT_LIST_DIR}/../../patches/pybind11_protobuf.patch"
   )
   FetchContent_MakeAvailable(pybind11_protobuf)
